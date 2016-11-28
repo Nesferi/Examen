@@ -1,0 +1,41 @@
+.cabecera{
+    width:80%;
+    height: 200px;
+    background-color: red;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.principal{
+    border: 2px solid black;
+    width:80%;
+    margin:auto;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.main{
+    width:60%;
+    height:500px;
+    background-color: blue;
+}
+aside{
+    width:35%;
+    height:500px;
+    background-color: green;
+}
+footer{
+    width:80%;
+    height:200px;
+    background-color: yellow;
+    width:80%;
+    margin:auto;
+}
+
+/*
+Cabecera 80% pagina ; Altura 200px; borde rojo (Clase cabecera)
+Separacion 10px; 
+Cuerpo principal(borde 2px solid black): Main 60% de ancho; 500px de alto y azul || aside 35% ancho, 500px alto y verde
+(clase principal(Section, clase main(div), aside)
+Separacion 10px;
+footer: 80% de ancho; 200px alto y amarillo>*/
